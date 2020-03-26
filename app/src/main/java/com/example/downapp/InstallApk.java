@@ -49,7 +49,7 @@ public class InstallApk {
 //                        ActivityCompat.requestPermissions(context, mPermissionList, 2);
 
                         Intent intent = new Intent(Settings.ACTION_MANAGE_UNKNOWN_APP_SOURCES, Uri.parse("package:" + context.getPackageName()));
-                        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+//                        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                         context.startActivityForResult(intent, 10012);
 
                     }
