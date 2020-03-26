@@ -88,15 +88,15 @@ public class MainActivity extends AppCompatActivity {
                     //不给权限处理
                 }
                 break;
-            case 2:
-                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                    new InstallApk(MainActivity.this)
-                            .installApk(new File(Environment.getExternalStorageDirectory(), "qianjinjia.apk"));
-                } else {
-                    Intent intent = new Intent(Settings.ACTION_MANAGE_UNKNOWN_APP_SOURCES);
-                    startActivityForResult(intent, 10012);
-                }
-                break;
+//            case 2:
+//                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+//                    new InstallApk(MainActivity.this)
+//                            .installApk(new File(Environment.getExternalStorageDirectory(), "qianjinjia.apk"));
+//                } else {
+//                    Intent intent = new Intent(Settings.ACTION_MANAGE_UNKNOWN_APP_SOURCES);
+//                    startActivityForResult(intent, 10012);
+//                }
+//                break;
         }
     }
 
