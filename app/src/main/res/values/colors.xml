@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="transparent_white">#90ffffff</color>
+    <color name="transparent_white_20">#20ffffff</color>
+    <color name="app_grey_cc">#cccccc</color>
+    <color name="black">#000000</color>
+
+    <color name="red">#FFFD5353</color>
+    <color name="red_select">#FFFF0000</color>
+    <color name="green">#FF00FF00</color>
+    <color name="grey">#FF404040</color>
+    <color name="sky_blue">#FF3299CC</color>
+    <color name="circle">#FFF2F2F2</color>
+    <color name="blue">#FF2455A6</color>
+    <color name="orange">#FFD05C00</color>
+    <color name="grey_bg">#FFF2F2F2</color>
+    <color name="grey_text">#FFB3B3B3</color>
+    <color name="black_text">#FF28282B</color>
+    <color name="black_text2">#FF5F5A5D</color>
+    <!-- 首页和我的财富 点击签到等文字颜色 -->
+    <color name="grey_up">#FF333333</color>
+    <color name="grey_down">#FF888888</color>
+    <!-- 背景色 -->
+    <color name="grey_01">#FFF5F5F5</color>
+    <color name="grey_line">#FFEFEFEF</color>
+    <color name="grey_shape">#FFBFBFBF</color>
+    <!-- 灰色字体或者button颜色 -->
+    <color name="grey_button">#FF808080</color>
+    <!-- 登录退出投资 button颜色 -->
+    <color name="button_normal">#FFea5152</color>
+    <color name="button_selected">#FFff514e</color>
+    <!-- 精品推荐轮播图移动原点颜色 -->
+    <color name="bot_yellow">#FFFAFE09</color>
+    <!-- 精品推荐轮播图默认原点颜色 -->
+    <color name="bot_white">#FFFFFFFF</color>
+    <!-- 精品推荐灰色字体 -->
+    <color name="grey_02">#FF666666</color>
+    <!-- 积分引导模糊图层页 -->
+    <color name="translucence">#96000000</color>
+    <color name="mask">#77333333</color>
+
+    <color name="gray">#aaaaaa</color>
+    <color name="light_blue">#6593cb</color>
+    <color name="color_blue">#287BDE</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorTextSelect">#F7B6B8</color>
+    <color name="colorTextUnselect">#20999999</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlackAlpha">#33000000</color>
+    <color name="colorChnanelText">#F89797</color>
+    <color name="colorBackGroud">#F8F8F8</color>
+    <color name="colorTitleBack">#F76564</color>
+    <color name="colorHoary2">#F4F4F4</color>
+    <color name="common_textColor">#333333</color>
+    <color name="colorHoary5">#EEEEEE</color>
+
+    <color name="pompadour">#fe9cff</color>
+    <color name="purple">#c19cff</color>
+
+    <color name="colorHoary2_alpha">#E0F4F4F4</color>
+
+    <color name="colorwathet">#21EDC4</color>
+    <color name="colorOrange">#FF6600</color>
+    <color name="colorOrange_1">#FE4502</color>
+    <color name="common_background">#EEEFF1</color>
+    <color name="common_divider">#E8E8E8</color>
+    <color name="circleImageview_border_color">#FFFFFF</color>
+    <color name="titleBar_background">#F8F8F8</color>
+    <color name="item_background">#FEFEFE</color>
+    <color name="item_background_alpha">#E0FEFEFE</color>
+
+    <color name="pink">#DABBE8</color>
+    <color name="pink2">#DABBE8</color>
+    <color name="yellow">#DDD787</color>
+
+    <!--文字黑色-->
+    <color name="colorTextBlack">#000000</color>
+    <!--文字白色-->
+    <color name="colorTextWhite">#FFFFFF</color>
+    <color name="colorSendName">#FF3163</color>
+    <color name="skyblue">#00FFFF</color>
+
+    <color name="yueme_content_1">#dababa</color>
+    <color name="yueme_content_2">#AFD0B6</color>
+    <color name="yueme_content_3">#BAD2E4</color>
+    <color name="colorWhite2">#30FFFFFF</color>
+    <color name="live_background">#807C878B</color>
+    <color name="colorGray">#999999</color>
+
+    <color name="color_message_time">#CCCCCC</color>
+    <color name="colorLightBlack">#111111</color>
+    <color name="color_content_bg">#DBBAE9</color>
+    <color name="color_pink_alpha">#33DBBAE9</color>
+    <color name="color_message_summary">#C8C8C8</color>
+    <color name="color_chat_hint_bg">#DEDEDE</color>
+    <color name="color_dark_blue">#8f55e9</color>
+
+    <color name="live_bg">#66000000</color>
+    <color name="colorPinkMauve">#FF006C</color>
+    <color name="live_user_meizhi_bg">#FF9256</color>
+    <color name="live_yellow">#FFCC00</color>
+    <color name="live_system_notify">#3C9FE5</color>
+    <color name="live_gift_msg">#E5843C</color>
+    <color name="color_kurenai">#FA006A</color>
+    <color name="color_grug">#5D220E</color>
+    <color name="live_watch_list_divider">#D9D9D9</color>
+    <color name="live_msg_sender">#E53C7D</color>
+    <color name="live_msg_shadow">#666666</color>
+    <color name="live_msg_attention">#E5AB3C</color>
+    <color name="yellow_7">#F2D307</color>
+    <color name="colorOrange_19">#FC7C19</color>
+    <color name="pink_5a">#EA405A</color>
+    <color name="green_05">#6DCE05</color>
+    <color name="blue_E9">#41A5E9</color>
+    <color name="shallow_orange">#FD8E49</color>
+
+    <color name="custom_header_text">#85B100</color>
+    <color name="custom_selected">#A8D324</color>
+    <color name="custom_background">#F0F8DB</color>
+    <color name="custom_background_today">#FF9105</color>
+    <color name="custom_background_disabled">#F0F8DB</color>
+    <color name="custom_text_selected">#FFFFFFFF</color>
+    <color name="custom_text_inactive">#7f778088</color>
+    <color name="colorBack">#FE7774</color>
+
+    <color name="color_fff">#ffffff</color>
+    <color name="color_f6f6f8">#f6f6f8</color>
+    <color name="colorHoary3">#F1E4F4</color>
+    <color name="colorHoary4">#B7B7B7</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorHoary">#f4b4b2ae</color>
+    <color name="titlebar_color">#3C4451</color>
+    <color name="common_bg_color">#F3F3F3</color>
+    <color name="colorHoary6">#F2F2F2</color>
+    <drawable name="transparent_background">#00000000</drawable>
+
+    <!--钱进家颜色规范-->
+    <color name="bg_color">#5D5D5D</color>
+    <color name="bg_view">#F5F5F5</color>
+    <color name="line_color">#E5E5E5</color>
+    <color name="light_line_color">#EEEEEE</color>
+    <color name="main_color">#3B7FFF</color>
+    <color name="content_color">#FA5050</color>
+    <color name="imp_text_color">#000000</color>
+    <color name="imp_text_color_60">#b0000000</color>
+    <color name="imp_text_color_50">#80000000</color>
+    <color name="mark_text_color">#333333</color>
+    <color name="light_text_color">#cccccc</color>
+    <color name="read_text_color">#666666</color>
+    <color name="help_text_color">#999999</color>
+    <color name="hint_text_color">#bbbbbb</color>
+    <color name="grey_color">#D0D6DC</color>
+    <color name="button_grey">#DCDFE6</color>
+    <color name="button_code">#9AB3C8</color>
+    <color name="square_yellow">#FEAB1F</color>
+    <color name="main_yellow">#FEAB1F</color>
+    <color name="bg_sky_blue">#2882FE</color>
+    <color name="bg_blue">#1751FA</color>
+    <color name="bg_dialog">#F8F8F8</color>
+    <color name="btn_send_code">#98B3C8</color>
+    <color name="green_blue">#00A393</color>
+    <color name="green_blue_light">#22B5AB</color>
+    <color name="light_gray">#FBFBFB</color>
+    <color name="tabtxetcolor">#9BA7B5</color>
+    <color name="deeps_yellow">#D8911A</color>
+    <color name="deep_yellow">#FFA815</color>
+    <color name="light_yellow">#FFD743</color>
+    <color name="gray_colors">#dddddd</color>
+
+</resources>
+
