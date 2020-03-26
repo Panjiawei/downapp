@@ -21,7 +21,7 @@ import java.io.File;
 public class MainActivity extends AppCompatActivity {
 
     PermissionHelper permissionHelper;
-    String url="https://ali-fir-pro-binary.jappstore.com/1354718ca71086bb181505bcc6300ba5ca37ae41.apk?auth_key=1585202597-0-0-13f6a063c382ffd4e6bb5b40661937ad";
+    String url="https://ali-fir-pro-binary.jappstore.com/1354718ca71086bb181505bcc6300ba5ca37ae41.apk?auth_key=1585208202-0-0-f033c72d9cd6f5e63ac2f4d06764caad";
 
     Handler handler = new Handler() {
         @Override
@@ -87,15 +87,15 @@ public class MainActivity extends AppCompatActivity {
                     //不给权限处理
                 }
                 break;
-            case 2:
-                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                    new InstallApk(MainActivity.this)
-                            .installApk(new File(Environment.getExternalStorageDirectory(), "qianjinjia.apk"));
-                } else {
-                    Intent intent = new Intent(Settings.ACTION_MANAGE_UNKNOWN_APP_SOURCES);
-                    startActivityForResult(intent, 10012);
-                }
-                break;
+//            case 2:
+//                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+//                    new InstallApk(MainActivity.this)
+//                            .installApk(new File(Environment.getExternalStorageDirectory(), "qianjinjia.apk"));
+//                } else {
+//                    Intent intent = new Intent(Settings.ACTION_MANAGE_UNKNOWN_APP_SOURCES);
+//                    startActivityForResult(intent, 10012);
+//                }
+//                break;
         }
     }
 
@@ -104,6 +104,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
+        Log.d("resultCode", resultCode + "");
+
         switch (requestCode) {
             case 10012:
                 Log.d("resultCode", resultCode + "");
